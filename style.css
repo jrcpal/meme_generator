@@ -1,0 +1,67 @@
+body {
+  margin: auto;
+}
+
+.header {
+  background-image: linear-gradient(to bottom right, #FFCBF2, #ECBCFD, #E2AFFF,#D8BBFF, #C8E7FF);
+  padding: 10px;
+}
+
+form {
+  margin-bottom: 50px;
+}
+
+.text {
+  width: 25%
+}
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 42px;
+margin: 10px 0px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#submit {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 0 auto;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+div {
+  display: inline-flex;
+  max-width: 90%;
+  width: 35%;
+  height: 300px;
+  margin: 10px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  color: white;
+  margin: 10px auto;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: -4px 0 black, 0 4px black, 4px 0 black, 0 -4px black;
+}
+
+h3 {
+  color: white;
+  margin: 0 auto;
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}

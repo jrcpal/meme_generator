@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="header">
+  <h1>Meme Generator</h1>
+
+  <form action="" id="memeForm">
+
+    <p>
+      <label for="">Enter image URL:
+        <input type="url" placeholder="Enter image URL" name="url" class="text">
+      </label>
+    </p>
+
+    <p>
+      <label for="">Enter text to display on top:
+        <input type="text" placeholder="(Optional) What text would you like on top?" name="textTop" class="text">
+      </label>
+    </p>
+
+    <p>
+      <label for="">Enter text to display on bottom:
+        <input type="text" placeholder="(Optional) What text would you like on bottom?" name="textBottom" class="text">
+      </label>
+    </p>
+
+    <p>
+      <label for="">Change the font color:
+        <input type="color" name="color" value="#ffffff">
+      </label>
+    </p>
+
+    <input id="submit" type="Submit" value="Create Meme">
+  </form>
+</section>
+
+  <container id="memeSection"></container>
+
+  <script src="app.js"></script>
+</body>
+</html>
